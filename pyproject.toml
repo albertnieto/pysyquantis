@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "pysyquantis"
+version = "0.1.0"
+description = "Python wrapper for easyquantis CLI tool for quantum random number generation"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "pysyquantis"}]
+homepage = "https://github.com/yourusername/pysyquantis"
+repository = "https://github.com/yourusername/pysyquantis"
+keywords = ["quantum", "random", "qrng", "quantis", "cli"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Security :: Cryptography",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-mock = "^3.11.0"
+pandas = "^2.0.0"
+matplotlib = "^3.7.0"
+seaborn = "^0.12.0"
+
+[tool.poetry.scripts]
+pysyquantis = "pysyquantis.cli:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testing and coverage
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+.tox/
+
+# Project-specific benchmark results
+benchmarks/results/
+benchmarks/plots/
+*.csv
+
+# Generated quantum data files
+*.bin
+*.dat
+random_*
+output_*
+dice.*
+floats.*
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Secrets and credentials
+*.pem
+*.key
+secrets.*
+config.ini
