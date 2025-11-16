@@ -14,7 +14,7 @@ Non-official Python wrapper for the `easyquantis` CLI tool.
 ### Using Poetry (Recommended)
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/albertnieto/pysyquantis.git
 cd pysyquantis
 poetry install
 ```
