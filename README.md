@@ -1,11 +1,9 @@
 # pysyquantis
 
-Modern Python wrapper for the `easyquantis` CLI tool, providing a clean, object-oriented interface for quantum random number generation.
+Non-official Python wrapper for the `easyquantis` CLI tool.
 
 ## Features
 
-- **Clean API**: Object-oriented wrapper with intuitive method names
-- **Type Safety**: Full type hints and modern Python 3.9+ support
 - **CLI Interface**: Command-line tool with Click-based interface
 - **Comprehensive Testing**: Unit tests with mocked subprocess calls
 - **Performance Benchmarking**: Built-in benchmarking and visualization tools
